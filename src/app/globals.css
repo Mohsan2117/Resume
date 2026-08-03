@@ -1,0 +1,40 @@
+/* Minimal globals — full CV styles come from /css/pillar-1.css + overrides (same as live site) */
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-inter), "Inter", system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .resume-picture-holder {
+    display: block !important;
+    width: 100%;
+    text-align: left !important;
+    margin-left: 15px;
+  }
+
+  .resume-picture-holder .picture {
+    display: block;
+    margin: 0;
+  }
+}
+@media (max-width: 991px) {
+  .social-section {
+    display: none !important;
+  }
+}
