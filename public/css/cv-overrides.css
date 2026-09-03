@@ -470,16 +470,16 @@ body {
 
   .resume-timeline,
   .resume-timeline-no-line {
-    padding-left: 1.25rem;
+    padding-left: 2rem;
   }
 
   .resume-timeline:before {
-    left: 4px;
+    left: 6px;
     width: 2px;
   }
 
   .resume-timeline-item:before {
-    left: -24px;
+    left: -32px;
     width: 12px;
     height: 12px;
     border-width: 3px;
