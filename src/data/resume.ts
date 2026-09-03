@@ -33,8 +33,8 @@ export const profile = {
       icon: "stackoverflow",
     },
     {
-      label: "Personal Developer Website",
-      href: "https://logiccrackstudio.netlify.app/",
+      label: "mohsan-iqbal.com",
+      href: "https://portfolio-green-nine-0rif1grods.vercel.app/",
       icon: "globe",
     },
   ],
@@ -63,7 +63,7 @@ export const workExperience: Job[] = [
   remote: "",
   company: "",
   companyUrl: "",
-  period: "Apr 2025 - Present",
+  period: "Apr 2026 - Present",
   description:
     "Building responsive, user-friendly, and full-stack web applications using modern JavaScript and TypeScript technologies.",
 
@@ -104,7 +104,7 @@ title: "Web UI & Frontend Developer",
 remote: "(Practice / Portfolio Projects)",
 company: "Personal Projects",
 companyUrl: "https://logiccrackstudio.netlify.app/",
-period: "2024 - Present",
+period: "2025 - Present",
 description: "Built frontend-focused web projects to strengthen practical experience with modern UI development, responsive layouts, and API-connected interfaces.",
 
 achievements: [
@@ -135,7 +135,7 @@ title: "Full-Stack Platform Developer",
 remote: "(Project)",
 company: "Logic Crack Hub",
 companyUrl: "https://logic-crack-hub.vercel.app/",
-period: "2025 - Present",
+period: "2026 - Present",
 description: "Designed and documented a production-oriented premium assets platform with a Next.js frontend, Go REST API backend, Supabase database/storage, JWT authentication, Stripe payments, and Netlify deployment.",
 
 achievements: [
@@ -291,7 +291,7 @@ export const webFocus = [
 export const education = {
   degree: "BS in Software Engineering",
   org: "Islamia University Bahawalpur",
-  time: "Sep 2021 - Apr 2025",
+  time: "Sep 2021 - Apr 2026",
 };
 
 export const languages = [
