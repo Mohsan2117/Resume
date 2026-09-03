@@ -474,10 +474,7 @@ body {
   }
 
   .resume-timeline:before {
-    left: 6px;
-    width: 2px;
-    top: 9px;
-    height: calc(100% - 18px);
+    display: none;
   }
 
   .resume-timeline-item:before {
