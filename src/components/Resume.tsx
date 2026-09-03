@@ -51,7 +51,15 @@ export function Resume() {
           id="resume-download"
           className="resume-wrapper-inner mx-auto text-start bg-white shadow-lg"
         >
-          <header className="resume-header pt-4 pt-md-0">
+          <header className="resume-header position-relative pt-4 pt-md-0">
+            <a
+              href={Site_Data.profile.pdf}
+              download
+              className="resume-header-download"
+            >
+              <Icon name="download" />
+              Download
+            </a>
             <div className="row g-0 g-md-3 align-items-center align-items-md-start">
               <div className="hidden md:flex col-12 col-md-auto resume-picture-holder text-center text-md-start">
                 {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -389,6 +389,40 @@ body {
   text-decoration: none;
 }
 
+.resume-header-download {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  color: white !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-header-download:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.38);
+  color: white !important;
+  transform: translateY(-1px);
+}
+
+.resume-header-download svg {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
 /* Small screens — responsive resume layout */
 @media (max-width: 767.98px) {
   html {
@@ -401,6 +435,10 @@ body {
 
   .mobile-resume-bar {
     display: flex;
+  }
+
+  .resume-header-download {
+    display: none;
   }
 
   .resume-wrapper {
@@ -568,6 +606,7 @@ body {
   }
 
   .mobile-resume-bar,
+  .resume-header-download,
   .desktop-view > .position-fixed {
     display: none !important;
   }
