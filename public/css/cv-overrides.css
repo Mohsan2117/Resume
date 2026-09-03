@@ -476,6 +476,8 @@ body {
   .resume-timeline:before {
     left: 6px;
     width: 2px;
+    top: 9px;
+    height: calc(100% - 18px);
   }
 
   .resume-timeline-item:before {
